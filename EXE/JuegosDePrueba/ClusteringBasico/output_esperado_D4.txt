@@ -1,0 +1,10 @@
+Usuario registrado con éxito. Puedes iniciar sesión ahora.
+Inicio de sesión correcto. Bienvenido, Charca!
+Encuesta creada: encD4
+Pregunta agregada
+Pregunta agregada
+Encuestas disponibles:
+ - encD4 (preguntas=2, respuestas=0)
+No hay respuestas. No se puede hacer clustering.
+No hay respuestas. No se puede hacer clustering.
+No hay respuestas. No se puede hacer clustering.

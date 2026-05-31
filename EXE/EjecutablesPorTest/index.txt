@@ -1,0 +1,11 @@
+Contenido de la carpeta EjecutablesPorTest:
+
+[DIR] ClusteringAvanzado/ - Scripts .sh y .bat que ejecutan los tests de clustering avanzado (metricas, comparaciones, accuracy, etc.).
+[DIR] ClusteringBasico/ - Scripts .sh y .bat que ejecutan los tests de clustering basico (k-means, k-medoids, casos sencillos).
+[DIR] ComparaciondeFicheros/ - Scripts que comparan ficheros de salida esperada y obtenida para distintos juegos.
+[DIR] EncuestasPreguntas/ - Scripts que lanzan juegos centrados en crear, editar y eliminar encuestas y preguntas.
+[DIR] FlujosIntegrados/ - Scripts que lanzan flujos integrados largos combinando varias funcionalidades.
+[DIR] ImportarExportar/ - Scripts que prueban la importacion y exportacion de encuestas y respuestas con CSV.
+[DIR] Respuestas/ - Scripts que prueban el alta, listado y borrado de respuestas de encuestas.
+     index.txt - Indice descriptivo del contenido de la carpeta EjecutablesPorTest.
+

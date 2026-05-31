@@ -1,0 +1,62 @@
+Usuario registrado con éxito. Puedes iniciar sesión ahora.
+Inicio de sesión correcto. Bienvenido, Charca!
+Encuesta creada: survey1
+Pregunta agregada
+Encuesta creada: survey2
+Pregunta agregada
+Encuestas disponibles:
+ - survey1 (preguntas=1, respuestas=0)
+ - survey2 (preguntas=1, respuestas=0)
+Respuesta agregada a la encuesta 'survey1' con id de participante: usertest@gmail.com
+Usuario registrado con éxito. Puedes iniciar sesión ahora.
+Inicio de sesión correcto. Bienvenido, Charca2!
+Encuestas disponibles:
+ - survey1 (preguntas=1, respuestas=1)
+ - survey2 (preguntas=1, respuestas=0)
+Respuesta agregada a la encuesta 'survey1' con id de participante: usertest2@gmail.com
+Usuario registrado con éxito. Puedes iniciar sesión ahora.
+Inicio de sesión correcto. Bienvenido, Charca3!
+Encuestas disponibles:
+ - survey1 (preguntas=1, respuestas=2)
+ - survey2 (preguntas=1, respuestas=0)
+Respuesta agregada a la encuesta 'survey1' con id de participante: usertest3@gmail.com
+Inicio de sesión correcto. Bienvenido, Charca!
+Importada encuesta loan-train con 13 preguntas y 614 respuestas
+Encuestas disponibles:
+ - survey1 (preguntas=1, respuestas=3)
+ - survey2 (preguntas=1, respuestas=0)
+ - loan-train (preguntas=13, respuestas=614)
+Algoritmo: k-means
+Representantes por cluster:
+  Cluster 0 -> punto mas cercano al centroide: usertest@gmail.com (dist=1.0000)
+  Cluster 1 -> punto mas cercano al centroide: (ninguno) (dist=0.0000)
+Metricas -> SSE: 3.0000 | Silhouette: NaN
+Encuestas disponibles:
+ - survey1 (preguntas=1, respuestas=3)
+ - survey2 (preguntas=1, respuestas=0)
+ - loan-train (preguntas=13, respuestas=614)
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'Gender', guardaremos como respuesta la media: 0
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'Married', guardaremos como respuesta la media: 0
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'Dependents', guardaremos como respuesta la media: 0
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'Education', guardaremos como respuesta la media: 0
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'Self_Employed', guardaremos como respuesta la media: 1
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'Property_Area', guardaremos como respuesta la media: 1
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'Loan_Status', guardaremos como respuesta la media: 0
+Algoritmo: k-means
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'Gender', guardaremos como respuesta la media: 0
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'Married', guardaremos como respuesta la media: 0
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'Dependents', guardaremos como respuesta la media: 0
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'Education', guardaremos como respuesta la media: 0
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'Self_Employed', guardaremos como respuesta la media: 1
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'Property_Area', guardaremos como respuesta la media: 1
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'Loan_Status', guardaremos como respuesta la media: 0
+Representantes por cluster:
+  Cluster 0 -> punto mas cercano al centroide: imp_378 (dist=0.0088)
+  Cluster 1 -> punto mas cercano al centroide: imp_237 (dist=0.0092)
+Metricas -> SSE: 0.0798 | Silhouette: 0.1854
+Encuestas disponibles:
+ - survey1 (preguntas=1, respuestas=3)
+ - survey2 (preguntas=1, respuestas=0)
+ - loan-train (preguntas=13, respuestas=614)
+No hay respuestas. No se puede hacer clustering.
+No hay respuestas. No se puede hacer clustering.

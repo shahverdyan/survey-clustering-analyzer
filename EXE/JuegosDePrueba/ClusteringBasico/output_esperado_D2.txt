@@ -1,0 +1,54 @@
+Usuario registrado con éxito. Puedes iniciar sesión ahora.
+Inicio de sesión correcto. Bienvenido, Charca!
+Encuesta creada: encD1
+Pregunta agregada
+Pregunta agregada
+Pregunta agregada
+Usuario registrado con éxito. Puedes iniciar sesión ahora.
+Inicio de sesión correcto. Bienvenido, P1!
+Encuestas disponibles:
+ - encD1 (preguntas=3, respuestas=0)
+Respuesta agregada a la encuesta 'encD1' con id de participante: p1@gmail.com
+Usuario registrado con éxito. Puedes iniciar sesión ahora.
+Inicio de sesión correcto. Bienvenido, P2!
+Encuestas disponibles:
+ - encD1 (preguntas=3, respuestas=1)
+Respuesta agregada a la encuesta 'encD1' con id de participante: p2@gmail.com
+Usuario registrado con éxito. Puedes iniciar sesión ahora.
+Inicio de sesión correcto. Bienvenido, P3!
+Encuestas disponibles:
+ - encD1 (preguntas=3, respuestas=2)
+Respuesta agregada a la encuesta 'encD1' con id de participante: p3@gmail.com
+Usuario registrado con éxito. Puedes iniciar sesión ahora.
+Inicio de sesión correcto. Bienvenido, P4!
+Encuestas disponibles:
+ - encD1 (preguntas=3, respuestas=3)
+Respuesta agregada a la encuesta 'encD1' con id de participante: p4@gmail.com
+Usuario registrado con éxito. Puedes iniciar sesión ahora.
+Inicio de sesión correcto. Bienvenido, P5!
+Encuestas disponibles:
+ - encD1 (preguntas=3, respuestas=4)
+Respuesta agregada a la encuesta 'encD1' con id de participante: p5@gmail.com
+Usuario registrado con éxito. Puedes iniciar sesión ahora.
+Inicio de sesión correcto. Bienvenido, P6!
+Encuestas disponibles:
+ - encD1 (preguntas=3, respuestas=5)
+Respuesta agregada a la encuesta 'encD1' con id de participante: p6@gmail.com
+Inicio de sesión correcto. Bienvenido, Charca!
+Encuestas disponibles:
+ - encD1 (preguntas=3, respuestas=6)
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'P2_ingresos', guardaremos como respuesta la media: 3100.0
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'P3_experiencia', guardaremos como respuesta la media: 10.833333333333334
+Algoritmo: k-means++
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'P2_ingresos', guardaremos como respuesta la media: 3100.0
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'P3_experiencia', guardaremos como respuesta la media: 10.833333333333334
+Representantes por cluster:
+  Cluster 0 -> punto mas cercano al centroide: p6@gmail.com (dist=0.0083)
+  Cluster 1 -> punto mas cercano al centroide: p3@gmail.com (dist=0.0083)
+Metricas -> SSE: 0.0026 | Silhouette: 0.9658
+Algoritmo: k-means++
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'P2_ingresos', guardaremos como respuesta la media: 3100.0
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'P3_experiencia', guardaremos como respuesta la media: 10.833333333333334
+Representantes por cluster:
+  Cluster 0 -> punto mas cercano al centroide: p6@gmail.com (dist=0.0083)
+  Cluster 1 -> punto mas cercano al centroide: p3@gmail.com (dist=0.0083)

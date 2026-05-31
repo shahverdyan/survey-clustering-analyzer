@@ -1,0 +1,14 @@
+input
+2
+usertest@gmail.com
+Charca
+Charquez
+10/08/2001
+1234
+1
+usertest@gmail.com
+1234
+5
+../../csvFiles/loan-train.csv
+../../csvFiles/loan-train.csv
+0

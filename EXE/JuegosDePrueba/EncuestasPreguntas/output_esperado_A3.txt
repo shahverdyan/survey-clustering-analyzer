@@ -1,0 +1,13 @@
+Usuario registrado con éxito. Puedes iniciar sesión ahora.
+Inicio de sesión correcto. Bienvenido, Charca!
+Encuesta creada: encA3
+Pregunta agregada
+Pregunta agregada
+Pregunta agregada
+Encuestas disponibles:
+ - encA3 (preguntas=3, respuestas=0)
+Pregunta eliminada.
+Listando preguntas de la encuesta 'encA3':
+1) P1_num NUMERICA
+2) P3_color OPCION_UNICA
+Opciones: [rojo, verde, azul]

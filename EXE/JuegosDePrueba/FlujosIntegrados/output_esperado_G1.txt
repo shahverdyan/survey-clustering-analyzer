@@ -1,0 +1,45 @@
+Usuario registrado con éxito. Puedes iniciar sesión ahora.
+Inicio de sesión correcto. Bienvenido, Charca!
+Encuesta creada: survey_manual
+Pregunta agregada
+Pregunta agregada
+Pregunta agregada
+Encuestas disponibles:
+ - survey_manual (preguntas=3, respuestas=0)
+Respuesta agregada a la encuesta 'survey_manual' con id de participante: usertest@gmail.com
+Usuario registrado con éxito. Puedes iniciar sesión ahora.
+Inicio de sesión correcto. Bienvenido, Charca2!
+Encuestas disponibles:
+ - survey_manual (preguntas=3, respuestas=1)
+Respuesta agregada a la encuesta 'survey_manual' con id de participante: usertest2@gmail.com
+Usuario registrado con éxito. Puedes iniciar sesión ahora.
+Inicio de sesión correcto. Bienvenido, Charca3!
+Encuestas disponibles:
+ - survey_manual (preguntas=3, respuestas=2)
+Respuesta agregada a la encuesta 'survey_manual' con id de participante: usertest3@gmail.com
+Usuario registrado con éxito. Puedes iniciar sesión ahora.
+Inicio de sesión correcto. Bienvenido, Charca4!
+Encuestas disponibles:
+ - survey_manual (preguntas=3, respuestas=3)
+Respuesta agregada a la encuesta 'survey_manual' con id de participante: usertest4@gmail.com
+Usuario registrado con éxito. Puedes iniciar sesión ahora.
+Inicio de sesión correcto. Bienvenido, Charca5!
+Encuestas disponibles:
+ - survey_manual (preguntas=3, respuestas=4)
+Respuesta agregada a la encuesta 'survey_manual' con id de participante: usertest5@gmail.com
+Inicio de sesión correcto. Bienvenido, Charca!
+Encuestas disponibles:
+ - survey_manual (preguntas=3, respuestas=5)
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'P3_satisfaccion', guardaremos como respuesta la media: 1
+Algoritmo: k-means++
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'P3_satisfaccion', guardaremos como respuesta la media: 1
+Representantes por cluster:
+  Cluster 0 -> punto mas cercano al centroide: usertest2@gmail.com (dist=0.2500)
+  Cluster 1 -> punto mas cercano al centroide: usertest4@gmail.com (dist=0.0000)
+  Cluster 2 -> punto mas cercano al centroide: usertest@gmail.com (dist=0.0000)
+Metricas -> SSE: 0.2361 | Silhouette: NaN
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'P3_satisfaccion', guardaremos como respuesta la media: 1
+Resultado exportado a ../../csvFiles/expo-clustering.csv
+Encuestas disponibles:
+ - survey_manual (preguntas=3, respuestas=5)
+Exportada encuesta survey_manual con 5 respuestas a ../../csvFiles/expo-encuestas.csv

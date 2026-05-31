@@ -1,0 +1,36 @@
+Usuario registrado con éxito. Puedes iniciar sesión ahora.
+Inicio de sesión correcto. Bienvenido, Charca!
+Encuesta creada: encB1
+Pregunta agregada
+Pregunta agregada
+Pregunta agregada
+Encuestas disponibles:
+ - encB1 (preguntas=3, respuestas=0)
+Respuesta agregada a la encuesta 'encB1' con id de participante: usertest@gmail.com
+Usuario registrado con éxito. Puedes iniciar sesión ahora.
+Inicio de sesión correcto. Bienvenido, Charca2!
+Encuestas disponibles:
+ - encB1 (preguntas=3, respuestas=1)
+Respuesta agregada a la encuesta 'encB1' con id de participante: usertest2@gmail.com
+Usuario registrado con éxito. Puedes iniciar sesión ahora.
+Inicio de sesión correcto. Bienvenido, Charca3!
+Encuestas disponibles:
+ - encB1 (preguntas=3, respuestas=2)
+Respuesta agregada a la encuesta 'encB1' con id de participante: usertest3@gmail.com
+Usuario registrado con éxito. Puedes iniciar sesión ahora.
+Inicio de sesión correcto. Bienvenido, Charca4!
+Encuestas disponibles:
+ - encB1 (preguntas=3, respuestas=3)
+Respuesta agregada a la encuesta 'encB1' con id de participante: usertest4@gmail.com
+Usuario registrado con éxito. Puedes iniciar sesión ahora.
+Inicio de sesión correcto. Bienvenido, Charca5!
+Encuestas disponibles:
+ - encB1 (preguntas=3, respuestas=4)
+Respuesta agregada a la encuesta 'encB1' con id de participante: usertest5@gmail.com
+Respuestas de la encuesta encB1: 5
+idParticipante,P1,P2_edad,P3_ciudad
+usertest@gmail.com,11.0,25.0,Barcelona
+usertest2@gmail.com,12.0,30.0,Madrid
+usertest3@gmail.com,30.0,28.0,Valencia
+usertest4@gmail.com,4.0,40.0,Sevilla
+usertest5@gmail.com,50.0,22.0,Bilbao

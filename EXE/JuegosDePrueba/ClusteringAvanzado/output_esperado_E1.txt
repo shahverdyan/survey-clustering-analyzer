@@ -1,0 +1,64 @@
+Usuario registrado con éxito. Puedes iniciar sesión ahora.
+Inicio de sesión correcto. Bienvenido, Charca!
+Importada encuesta loan con 13 preguntas y 614 respuestas
+Encuestas disponibles:
+ - loan (preguntas=13, respuestas=614)
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'Gender', guardaremos como respuesta la media: 0
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'Married', guardaremos como respuesta la media: 0
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'Dependents', guardaremos como respuesta la media: 0
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'Education', guardaremos como respuesta la media: 0
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'Self_Employed', guardaremos como respuesta la media: 1
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'Property_Area', guardaremos como respuesta la media: 1
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'Loan_Status', guardaremos como respuesta la media: 0
+Algoritmo: k-means
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'Gender', guardaremos como respuesta la media: 0
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'Married', guardaremos como respuesta la media: 0
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'Dependents', guardaremos como respuesta la media: 0
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'Education', guardaremos como respuesta la media: 0
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'Self_Employed', guardaremos como respuesta la media: 1
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'Property_Area', guardaremos como respuesta la media: 1
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'Loan_Status', guardaremos como respuesta la media: 0
+Representantes por cluster:
+  Cluster 0 -> punto mas cercano al centroide: imp_378 (dist=0.0088)
+  Cluster 1 -> punto mas cercano al centroide: imp_237 (dist=0.0092)
+Metricas -> SSE: 0.0798 | Silhouette: 0.1854
+Algoritmo: k-means
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'Gender', guardaremos como respuesta la media: 0
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'Married', guardaremos como respuesta la media: 0
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'Dependents', guardaremos como respuesta la media: 0
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'Education', guardaremos como respuesta la media: 0
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'Self_Employed', guardaremos como respuesta la media: 1
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'Property_Area', guardaremos como respuesta la media: 1
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'Loan_Status', guardaremos como respuesta la media: 0
+Representantes por cluster:
+  Cluster 0 -> punto mas cercano al centroide: imp_378 (dist=0.0088)
+  Cluster 1 -> punto mas cercano al centroide: imp_237 (dist=0.0092)
+Encuestas disponibles:
+ - loan (preguntas=13, respuestas=614)
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'Gender', guardaremos como respuesta la media: 0
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'Married', guardaremos como respuesta la media: 0
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'Dependents', guardaremos como respuesta la media: 0
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'Education', guardaremos como respuesta la media: 0
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'Self_Employed', guardaremos como respuesta la media: 1
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'Property_Area', guardaremos como respuesta la media: 1
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'Loan_Status', guardaremos como respuesta la media: 0
+Algoritmo: k-means
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'Gender', guardaremos como respuesta la media: 0
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'Married', guardaremos como respuesta la media: 0
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'Dependents', guardaremos como respuesta la media: 0
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'Education', guardaremos como respuesta la media: 0
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'Self_Employed', guardaremos como respuesta la media: 1
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'Property_Area', guardaremos como respuesta la media: 1
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'Loan_Status', guardaremos como respuesta la media: 0
+Representantes por cluster:
+  Cluster 0 -> punto mas cercano al centroide: imp_378 (dist=0.0088)
+  Cluster 1 -> punto mas cercano al centroide: imp_237 (dist=0.0092)
+Metricas -> SSE: 0.0798 | Silhouette: 0.1854
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'Gender', guardaremos como respuesta la media: 0
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'Married', guardaremos como respuesta la media: 0
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'Dependents', guardaremos como respuesta la media: 0
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'Education', guardaremos como respuesta la media: 0
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'Self_Employed', guardaremos como respuesta la media: 1
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'Property_Area', guardaremos como respuesta la media: 1
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'Loan_Status', guardaremos como respuesta la media: 0
+Resultado exportado a ../../csvFiles/expo-clustering.csv

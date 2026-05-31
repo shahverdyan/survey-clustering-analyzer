@@ -1,0 +1,10 @@
+Docs
+
+Este directorio contiene la documentación de la práctica. Más específicamente, podemos encontrar los siguientes archivos:
+- Manual_De_Usuario: Manual de uso de la aplicación en formato docx
+- Manual_De_Usuario_PDF: Manual de uso de la aplicación en formato PDF
+- Documentacion_Proyecto_Prop: Documentación completa en formato docx
+- Documentacion_Proyecto_Prop_PDF: Documentación completa en formato PDF
+- Diagramas: Directorio que contiene los diagramas de la práctica
+
+

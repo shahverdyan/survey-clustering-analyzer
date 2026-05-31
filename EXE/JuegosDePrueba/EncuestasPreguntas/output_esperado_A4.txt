@@ -1,0 +1,26 @@
+Usuario registrado con éxito. Puedes iniciar sesión ahora.
+Inicio de sesión correcto. Bienvenido, Charca!
+Encuesta creada: encA4
+Pregunta agregada
+Pregunta agregada
+Encuestas disponibles:
+ - encA4 (preguntas=2, respuestas=0)
+Respuesta agregada a la encuesta 'encA4' con id de participante: usertest@gmail.com
+Usuario registrado con éxito. Puedes iniciar sesión ahora.
+Inicio de sesión correcto. Bienvenido, Charca2!
+Encuestas disponibles:
+ - encA4 (preguntas=2, respuestas=1)
+Respuesta agregada a la encuesta 'encA4' con id de participante: usertest2@gmail.com
+Usuario registrado con éxito. Puedes iniciar sesión ahora.
+Inicio de sesión correcto. Bienvenido, Charca3!
+Encuestas disponibles:
+ - encA4 (preguntas=2, respuestas=2)
+Respuesta agregada a la encuesta 'encA4' con id de participante: usertest3@gmail.com
+Encuestas disponibles:
+ - encA4 (preguntas=2, respuestas=3)
+Error inesperado: No puedes eliminar una encuesta de otro usuario.
+Inicio de sesión correcto. Bienvenido, Charca!
+Encuestas disponibles:
+ - encA4 (preguntas=2, respuestas=3)
+Encuesta 'encA4' eliminada y respuestas borradas
+No hay encuestas

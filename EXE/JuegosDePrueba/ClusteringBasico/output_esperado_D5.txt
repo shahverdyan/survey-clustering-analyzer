@@ -1,0 +1,38 @@
+Usuario registrado con éxito. Puedes iniciar sesión ahora.
+Inicio de sesión correcto. Bienvenido, Charca!
+Encuesta creada: encD5
+Pregunta agregada
+Pregunta agregada
+Pregunta agregada
+Pregunta agregada
+Usuario registrado con éxito. Puedes iniciar sesión ahora.
+Inicio de sesión correcto. Bienvenido, P1!
+Encuestas disponibles:
+ - encD5 (preguntas=4, respuestas=0)
+Respuesta agregada a la encuesta 'encD5' con id de participante: p1@gmail.com
+Usuario registrado con éxito. Puedes iniciar sesión ahora.
+Inicio de sesión correcto. Bienvenido, P2!
+Encuestas disponibles:
+ - encD5 (preguntas=4, respuestas=1)
+Respuesta agregada a la encuesta 'encD5' con id de participante: p2@gmail.com
+Usuario registrado con éxito. Puedes iniciar sesión ahora.
+Inicio de sesión correcto. Bienvenido, P3!
+Encuestas disponibles:
+ - encD5 (preguntas=4, respuestas=2)
+Respuesta agregada a la encuesta 'encD5' con id de participante: p3@gmail.com
+Inicio de sesión correcto. Bienvenido, Charca!
+Encuestas disponibles:
+ - encD5 (preguntas=4, respuestas=3)
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'P3_opcion', guardaremos como respuesta la media: 0
+Algoritmo: k-means
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'P3_opcion', guardaremos como respuesta la media: 0
+Representantes por cluster:
+  Cluster 0 -> punto mas cercano al centroide: p3@gmail.com (dist=0.0000)
+  Cluster 1 -> punto mas cercano al centroide: p1@gmail.com (dist=0.2778)
+Metricas -> SSE: 0.1543 | Silhouette: -0.3333
+Algoritmo: k-means
+DEBUG: Dado que la respuesta es nula o vacia para la pregunta 'P3_opcion', guardaremos como respuesta la media: 0
+Representantes por cluster:
+  Cluster 0 -> punto mas cercano al centroide: p3@gmail.com (dist=0.0000)
+  Cluster 1 -> punto mas cercano al centroide: p1@gmail.com (dist=0.2778)
+

@@ -1,0 +1,9 @@
+Usuario registrado con éxito. Puedes iniciar sesión ahora.
+Inicio de sesión correcto. Bienvenido, Charca!
+Encuesta creada: encC4
+Pregunta agregada
+Pregunta agregada
+Pregunta agregada
+Encuestas disponibles:
+ - encC4 (preguntas=3, respuestas=0)
+Exportada encuesta encC4 con 0 respuestas a ../../csvFiles/expo-encuestas.csv

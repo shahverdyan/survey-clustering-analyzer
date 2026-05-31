@@ -1,0 +1,7 @@
+Usuario registrado con éxito. Puedes iniciar sesión ahora.
+Inicio de sesión correcto. Bienvenido, Charca!
+Diferencia en línea 8:
+  Archivo 1: Aleks,24.0
+  Archivo 2: Aleks,26.0
+
+Los ficheros son DIFERENTES

@@ -1,0 +1,14 @@
+Usuario registrado con éxito. Puedes iniciar sesión ahora.
+Inicio de sesión correcto. Bienvenido, Charca!
+Encuesta creada: encA2
+Pregunta agregada
+Pregunta agregada
+Pregunta agregada
+Pregunta agregada
+Listando preguntas de la encuesta 'encA2':
+1) P1_edad NUMERICA
+2) P2_nombre TEXTO
+3) P3_opcion_unica OPCION_UNICA
+Opciones: [A, B, C]
+4) P4_opcion_multiple OPCION_MULTIPLE
+Opciones: [Deporte, Musica, Cine] (max=0)

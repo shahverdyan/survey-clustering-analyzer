@@ -1,0 +1,25 @@
+Usuario registrado con éxito. Puedes iniciar sesión ahora.
+Inicio de sesión correcto. Bienvenido, Charca!
+Encuesta creada: encB3
+Pregunta agregada
+Pregunta agregada
+Encuestas disponibles:
+ - encB3 (preguntas=2, respuestas=0)
+Respuesta agregada a la encuesta 'encB3' con id de participante: usertest@gmail.com
+Usuario registrado con éxito. Puedes iniciar sesión ahora.
+Inicio de sesión correcto. Bienvenido, Charca2!
+Encuestas disponibles:
+ - encB3 (preguntas=2, respuestas=1)
+Respuesta agregada a la encuesta 'encB3' con id de participante: usertest2@gmail.com
+Usuario registrado con éxito. Puedes iniciar sesión ahora.
+Inicio de sesión correcto. Bienvenido, Charca3!
+Encuestas disponibles:
+ - encB3 (preguntas=2, respuestas=2)
+Respuesta agregada a la encuesta 'encB3' con id de participante: usertest3@gmail.com
+Inicio de sesión correcto. Bienvenido, Charca!
+Encuestas disponibles:
+ - encB3 (preguntas=2, respuestas=3)
+Respuestas borradas de la encuesta: encB3
+Encuestas disponibles:
+ - encB3 (preguntas=2, respuestas=0)
+No hay respuestas para esta encuesta

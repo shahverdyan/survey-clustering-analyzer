@@ -1,0 +1,17 @@
+Contenido de la carpeta EXE:
+
+[DIR] EjecutablesPorTest/ - Scripts que ejecutan cada juego de prueba individual.
+[DIR] JuegosDePrueba/ - Ficheros de input usados por los juegos de prueba, con sus ficheros de output esperado.
+[DIR] csvFiles/ - Ficheros CSV de datos y resultados de clustering.
+     README.md - Explicacion general de como usar la carpeta EXE y los scripts.
+     ejecutar_app.bat - Lanza la aplicacion grafica en Windows usando program.jar.
+     ejecutar_app.sh - Lanza la aplicacion grafica en Linux usando program.jar.
+     ejecutar_bateria_tests.bat - Ejecuta toda la bateria de tests en Windows.
+     ejecutar_bateria_tests.sh - Ejecuta toda la bateria de tests en Linux.
+     ejecutar_driver_principal.bat - Ejecuta el driver principal (terminal) en Windows.
+     ejecutar_driver_principal.sh - Ejecuta el driver principal (terminal) en Linux.
+     ejecutar_tests_unitarios.bat - Lanza los tests unitarios con Gradle en Windows.
+     ejecutar_tests_unitarios.sh - Lanza los tests unitarios con Gradle en Linux.
+     program.jar - Archivo ejecutable principal de la aplicacion Java.
+     recompilar.bat - Recompila el proyecto y actualiza program.jar en Windows.
+     recompilar.sh - Recompila el proyecto y actualiza program.jar en Linux.

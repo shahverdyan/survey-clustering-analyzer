@@ -1,0 +1,17 @@
+input
+2
+usertest@gmail.com
+Charca
+Charquez
+10/08/2001
+1234
+1
+usertest@gmail.com
+1234
+1
+1
+encA1
+0
+2
+0
+0

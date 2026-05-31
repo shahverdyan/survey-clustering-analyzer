@@ -1,0 +1,4 @@
+Usuario registrado con éxito. Puedes iniciar sesión ahora.
+Inicio de sesión correcto. Bienvenido, Charca!
+
+Los ficheros son IGUALES

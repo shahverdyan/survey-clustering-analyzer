@@ -1,0 +1,6 @@
+Usuario registrado con éxito. Puedes iniciar sesión ahora.
+Inicio de sesión correcto. Bienvenido, Charca!
+Importada encuesta loan con 13 preguntas y 614 respuestas
+Encuestas disponibles:
+ - loan (preguntas=13, respuestas=614)
+Exportada encuesta loan con 614 respuestas a ../../csvFiles/expo-encuestas.csv

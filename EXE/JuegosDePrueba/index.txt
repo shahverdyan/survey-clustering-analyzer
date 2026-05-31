@@ -1,0 +1,11 @@
+Contenido de la carpeta JuegosDePrueba:
+
+[DIR] ClusteringAvanzado/ - Juegos de prueba relacionados con clustering avanzado (metricas, comparaciones, accuracy, etc.).
+[DIR] ClusteringBasico/ - Juegos de prueba de clustering basico (k-means, k-medoids, casos sencillos).
+[DIR] ComparaciondeFicheros/ - Juegos de prueba para comparar ficheros de salida esperada y obtenida.
+[DIR] EncuestasPreguntas/ - Juegos de prueba para crear, editar y eliminar encuestas y preguntas.
+[DIR] FlujosIntegrados/ - Juegos de prueba de flujos largos que combinan varias funcionalidades (usuarios, encuestas, respuestas, clustering...).
+[DIR] ImportarExportar/ - Juegos de prueba para importar y exportar encuestas y respuestas desde/hacia CSV.
+[DIR] Respuestas/ - Juegos de prueba para agregar, listar y eliminar respuestas de encuestas.
+     index.txt - Indice descriptivo del contenido de la carpeta JuegosDePrueba.
+

@@ -1,0 +1,8 @@
+P1_edad,P2_ciudad,P3_satisfaccion
+NUMERICA,TEXTUAL,OPCION_UNICA
+,,Baja|Media|Alta
+25.0,Barcelona,2
+30.0,Madrid,1
+20.0,Sevilla,0
+40.0,Valencia,2
+35.0,Bilbao,1

@@ -1,0 +1,5 @@
+Usuario registrado con éxito. Puedes iniciar sesión ahora.
+Inicio de sesión correcto. Bienvenido, Charca!
+Encuesta creada: encA1
+Encuestas disponibles:
+ - encA1 (preguntas=0, respuestas=0)

@@ -1,0 +1,25 @@
+Usuario registrado con éxito. Puedes iniciar sesión ahora.
+Inicio de sesión correcto. Bienvenido, Charca!
+Encuesta creada: encB4
+Pregunta agregada
+Encuestas disponibles:
+ - encB4 (preguntas=1, respuestas=0)
+Respuesta agregada a la encuesta 'encB4' con id de participante: usertest@gmail.com
+Usuario registrado con éxito. Puedes iniciar sesión ahora.
+Inicio de sesión correcto. Bienvenido, Charca2!
+Encuestas disponibles:
+ - encB4 (preguntas=1, respuestas=1)
+Respuesta agregada a la encuesta 'encB4' con id de participante: usertest2@gmail.com
+Usuario registrado con éxito. Puedes iniciar sesión ahora.
+Inicio de sesión correcto. Bienvenido, Charca3!
+Encuestas disponibles:
+ - encB4 (preguntas=1, respuestas=2)
+Respuesta agregada a la encuesta 'encB4' con id de participante: usertest3@gmail.com
+Inicio de sesión correcto. Bienvenido, Charca!
+Encuestas disponibles:
+ - encB4 (preguntas=1, respuestas=3)
+Respuestas de la encuesta encB4: 3
+idParticipante,P1_color
+usertest@gmail.com,0
+usertest2@gmail.com,
+usertest3@gmail.com,1

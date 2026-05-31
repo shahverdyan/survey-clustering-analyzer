@@ -1,0 +1,59 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group = '31.2'
+version = '1.0-SNAPSHOT'
+
+ext {
+    javaMainClass = 'App'
+}
+
+application {
+    mainClassName = javaMainClass
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': javaMainClass
+    }
+}
+
+// Apply a specific Java toolchain to ease working on different environments.
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'org.mockito:mockito-core:4.11.0'
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+sourceSets {
+    main {
+        java {
+            exclude 'lastversion/**'
+        }
+    }
+}
+
+application {
+    mainClass = javaMainClass
+}
+
+// Asegura entrada interactiva al ejecutar con `gradlew run`
+tasks.named('run', JavaExec) {
+    standardInput = System.in
+}

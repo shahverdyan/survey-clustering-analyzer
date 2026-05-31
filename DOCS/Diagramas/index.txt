@@ -1,0 +1,12 @@
+Diagramas
+
+Este directorio contiene laos diagramas de la práctica. Más específicamente, podemos encontrar los siguientes archivos:
+- Diagrama_Modelo_Draw: Diagrama de modelo conceptual en formato draw.io
+- Diagrama_Modelo: Diagrama de modelo conceptual en formato svg
+- Diagrama_Modelo_Presentacion: Diagrama de modelo conceptual de la capa de presentación formato svg
+- Diagrama_Modelo_Dominio: Diagrama de modelo conceptual de la capa de dominio formato svg
+- Diagrama_Modelo_Persistencia: Diagrama de modelo conceptual de la capa de persistencia formato svg
+- Diagrama_Casos_Uso_Draw: Diagrama de los casos de uso en formato draw.io
+- Diagrama_Casos_Uso: Diagrama de los casos de uso en formato svg
+
+
