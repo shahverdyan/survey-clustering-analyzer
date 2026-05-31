@@ -4,6 +4,10 @@ A Java application for creating and managing surveys with behavior analysis thro
 
 ---
 
+> 🎓 This repository is a public mirror of a private organization repo developed during the **Programming Projects (PROP)** course at **FIB — UPC** (2025–2026 Q1). The app was built by a team of 5 students over the course of a full academic semester, working with a waterfall methodology.
+
+---
+
 ## What does it do?
 
 The app has two usage modes: a **graphical interface (Swing)** and a **terminal driver** for automated testing.
