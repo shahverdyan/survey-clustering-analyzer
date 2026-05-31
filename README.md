@@ -1,158 +1,158 @@
 # Survey Clustering Analyzer
 
-Aplicación Java para crear y gestionar encuestas con análisis de comportamiento por clustering. Permite agrupar automáticamente a los participantes según sus respuestas usando algoritmos de clustering sobre datos mixtos (numéricos, textuales y categóricos).
+A Java application for creating and managing surveys with behavior analysis through clustering. It automatically groups participants based on their responses using clustering algorithms over mixed-type data (numeric, text, and categorical).
 
 ---
 
-## ¿Qué hace la aplicación?
+## What does it do?
 
-La app tiene dos modos de uso: **interfaz gráfica (Swing)** y **driver de terminal** para testing automatizado.
+The app has two usage modes: a **graphical interface (Swing)** and a **terminal driver** for automated testing.
 
-### Funcionalidades principales
+### Main features
 
-- **Gestión de encuestas** — Crea encuestas con preguntas de cuatro tipos: numérica, texto libre, opción única y opción múltiple. Edita y elimina encuestas propias.
-- **Gestión de respuestas** — Añade y elimina respuestas de participantes a cualquier encuesta del sistema.
-- **Clustering de participantes** — Agrupa automáticamente las respuestas en *k* clusters usando tres algoritmos:
-  - **K-Means** (inicialización aleatoria)
-  - **K-Means++** (inicialización inteligente)
+- **Survey management** — Create surveys with four question types: numeric, free text, single choice, and multiple choice. Edit and delete your own surveys.
+- **Response management** — Add and remove participant responses to any survey in the system.
+- **Participant clustering** — Automatically group responses into *k* clusters using three algorithms:
+  - **K-Means** (random initialization)
+  - **K-Means++** (smart initialization)
   - **K-Medoids / PAM**
-- **Evaluación de resultados** — Calcula métricas de calidad del clustering: SSE, índice de Silhouette y Accuracy (contra etiquetas reales de un CSV).
-- **Importar / Exportar** — Importa encuestas y respuestas desde CSV. Exporta resultados de clustering a CSV.
-- **Gestión de usuarios** — Registro e inicio de sesión. Cada encuesta pertenece a su creador.
-- **Persistencia automática** — Los datos se guardan al cerrar y se cargan al iniciar.
+- **Result evaluation** — Computes clustering quality metrics: SSE, Silhouette index, and Accuracy (against ground-truth labels from a CSV).
+- **Import / Export** — Import surveys and responses from CSV. Export clustering results to CSV.
+- **User management** — Register and log in. Each survey belongs to its creator.
+- **Automatic persistence** — Data is saved on exit and loaded on startup.
 
-### Arquitectura
+### Architecture
 
 ```
 src/main/java/
-├── presentation/   ← GUI Swing
-├── domain/         ← Lógica de negocio, clustering, vectorización
-├── persistence/    ← Repositorios y serialización a disco
-└── drivers/        ← Driver de terminal para testing
+├── presentation/   ← Swing GUI
+├── domain/         ← Business logic, clustering, vectorization
+├── persistence/    ← Repositories and disk serialization
+└── drivers/        ← Terminal driver for testing
 ```
 
-La distancia entre respuestas se calcula con **distancia de Gower**, que maneja de forma nativa la mezcla de tipos de datos.
+Distance between responses is computed using **Gower distance**, which natively handles mixed data types.
 
 ---
 
-## Requisitos
+## Requirements
 
-- **Java 21** o superior
-- No se necesita ninguna instalación adicional; el proyecto incluye el Gradle Wrapper
+- **Java 21** or higher
+- No additional installation needed — the project includes the Gradle Wrapper
 
 ---
 
-## Ejecución
+## Running the app
 
-Todos los scripts están en la carpeta `EXE/`. En Linux/Mac, la primera vez hay que dar permisos:
+All scripts are in the `EXE/` folder. On Linux/Mac, grant execution permissions the first time:
 
 ```bash
 find EXE -name "*.sh" -exec chmod +x {} +
 ```
 
-En Windows usa los equivalentes `.bat`.
+On Windows, use the equivalent `.bat` files.
 
-### Lanzar la aplicación (GUI)
+### Launch the application (GUI)
 
 ```bash
 ./EXE/ejecutar_app.sh
 ```
 
-### Lanzar el driver de terminal
+### Launch the terminal driver
 
-Útil para probar el flujo completo de forma interactiva desde la terminal:
+Useful for interactively testing the full flow from the terminal:
 
 ```bash
 ./EXE/ejecutar_driver_principal.sh
 ```
 
-### Recompilar
+### Recompile
 
-Si modificas el código fuente, regenera el `program.jar`:
+If you modify the source code, regenerate `program.jar`:
 
 ```bash
 ./EXE/recompilar.sh
 ```
 
-Esto ejecuta `./gradlew clean jar` y copia el resultado a `EXE/program.jar`.
+This runs `./gradlew clean jar` and copies the result to `EXE/program.jar`.
 
 ---
 
 ## Tests
 
-### Tests unitarios (JUnit)
+### Unit tests (JUnit)
 
-Validan la lógica interna de clustering, modelo, persistencia y vectorización:
+Validate the internal logic of clustering, model, persistence, and vectorization:
 
 ```bash
 ./EXE/ejecutar_tests_unitarios.sh
 ```
 
-O directamente con Gradle:
+Or directly with Gradle:
 
 ```bash
 ./gradlew clean test
 ```
 
-### Batería de tests de integración
+### Integration test suite
 
-24 juegos de prueba que lanzan el driver con entradas predefinidas y comparan la salida contra el resultado esperado:
+24 test cases that launch the driver with predefined inputs and compare the output against the expected result:
 
 ```bash
 ./EXE/ejecutar_bateria_tests.sh
 ```
 
-Al finalizar muestra un resumen de tests pasados y fallados. Si alguno falla, los detalles quedan en `EXE/bateria_error_log.txt`.
+At the end it prints a summary of passed and failed tests. If any fail, details are saved to `EXE/bateria_error_log.txt`.
 
-### Tests individuales
+### Individual tests
 
-Los tests están organizados por categoría en `EXE/EjecutablesPorTest/`:
+Tests are organized by category inside `EXE/EjecutablesPorTest/`:
 
-| Carpeta | Qué prueba |
+| Folder | What it tests |
 |---|---|
-| `EncuestasPreguntas/` | Crear, listar, editar y eliminar encuestas (A1–A4) |
-| `Respuestas/` | Añadir, eliminar y validar respuestas (B1–B4) |
-| `ImportarExportar/` | Importar y exportar encuestas via CSV (C1–C2) |
-| `ClusteringBasico/` | K-Means, K-Means++, K-Medoids y vectorización (D1–D5) |
-| `ClusteringAvanzado/` | Exportar clustering, Accuracy, comparación de algoritmos (E1–E4) |
-| `ComparaciondeFicheros/` | Comparar ficheros de salida (F1–F2) |
-| `FlujosIntegrados/` | Flujos completos de extremo a extremo (G1–G3) |
+| `EncuestasPreguntas/` | Create, list, edit and delete surveys (A1–A4) |
+| `Respuestas/` | Add, remove and validate responses (B1–B4) |
+| `ImportarExportar/` | Import and export surveys via CSV (C1–C2) |
+| `ClusteringBasico/` | K-Means, K-Means++, K-Medoids and vectorization (D1–D5) |
+| `ClusteringAvanzado/` | Export clustering, Accuracy, algorithm comparison (E1–E4) |
+| `ComparaciondeFicheros/` | Compare output files (F1–F2) |
+| `FlujosIntegrados/` | Full end-to-end flows (G1–G3) |
 
-Para ejecutar un test individual:
+To run an individual test:
 
 ```bash
 cd EXE/EjecutablesPorTest/EncuestasPreguntas
 ./test_JuegoA1_CrearYListarEncuestaBasica.sh
 ```
 
-Los inputs y outputs esperados de cada test están en `EXE/JuegosDePrueba/`.
+Inputs and expected outputs for each test are in `EXE/JuegosDePrueba/`.
 
 ---
 
-## Comandos Gradle útiles
+## Useful Gradle commands
 
 ```bash
-./gradlew test          # Ejecutar tests unitarios
-./gradlew run           # Lanzar la app desde Gradle (con entrada interactiva)
-./gradlew jar           # Generar el JAR en build/libs/
-./gradlew clean         # Limpiar artefactos de compilación
+./gradlew test          # Run unit tests
+./gradlew run           # Launch the app from Gradle (with interactive input)
+./gradlew jar           # Generate the JAR in build/libs/
+./gradlew clean         # Clean compilation artifacts
 ```
 
 ---
 
-## Estructura del proyecto
+## Project structure
 
 ```
 .
 ├── src/
-│   ├── main/java/      ← Código fuente
-│   └── test/java/      ← Tests unitarios
+│   ├── main/java/      ← Source code
+│   └── test/java/      ← Unit tests
 ├── EXE/
-│   ├── EjecutablesPorTest/   ← Scripts de test de integración
-│   ├── JuegosDePrueba/       ← Inputs y outputs esperados
-│   ├── csvFiles/             ← CSVs de ejemplo
-│   └── *.sh / *.bat          ← Scripts de ejecución
-├── DOCS/               ← Documentación y diagramas
-├── data/               ← Datos persistidos (generado en ejecución)
+│   ├── EjecutablesPorTest/   ← Integration test scripts
+│   ├── JuegosDePrueba/       ← Test inputs and expected outputs
+│   ├── csvFiles/             ← Sample CSV files
+│   └── *.sh / *.bat          ← Execution scripts
+├── DOCS/               ← Documentation and diagrams
+├── data/               ← Persisted data (generated at runtime)
 └── build.gradle
 ```
